@@ -58,5 +58,9 @@ Inicializar
 
 ## Base de Datos : idesatest
 
-Para el proyecto se proporciona un dump.SQL para crear la base de datos inicial con el nombre "idesatest.sql"
+Para el proyecto se proporciona un dump.SQL para crear la base de datos inicial con el nombre "idesatest.sql" dentro de la carpeta Recursos
+
+## Coleccion POSTMAN
+
+Se proporciona coleccion postman con ejemplos de las peticiones a la PAI dentro de la carpeta Recursos
 
