@@ -11,4 +11,50 @@ MySql.
 Laravel 11.
 
 ## Instalacion
-Clonar el repositorio
+
+Clonar el proyecto
+
+```bash
+  git clone https://link-to-project
+```
+
+Ir a la carpeta del proyecto
+
+```bash
+  cd desafioIDESA
+```
+
+Instalar dependencias
+
+```bash
+  composer install
+```
+Configurar nuestra coneccion a la base de datos en nuestro archivo .en
+
+```bash
+ DB_CONNECTION=mysql
+ DB_HOST=127.0.0.1
+ DB_PORT=3306
+ DB_DATABASE=idesatest
+ DB_USERNAME=root
+ DB_PASSWORD=
+```
+Ejecutar migraciones
+
+```bash
+  php artisan migrate
+```
+
+Ejecutar seeders
+
+```bash
+  php artisan db:seed
+```
+Inicializar
+
+```bash
+  php artisan serve
+```
+
+## Configuracion archivo .env
+
