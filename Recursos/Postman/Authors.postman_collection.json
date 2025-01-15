@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "a39bb82d-b24a-404c-af9a-41a5058fbeeb",
+		"name": "Authors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40935142"
+	},
+	"item": [
+		{
+			"name": "GET AUTHORS LIST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/authors"
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE AUTHORS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/authors?name=Rodrigo Mendoza&birthdate=1988-01-23&nationality=PYO",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"authors"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Rodrigo Mendoza"
+						},
+						{
+							"key": "birthdate",
+							"value": "1988-01-23"
+						},
+						{
+							"key": "nationality",
+							"value": "PYO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET AUTHOR BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/authors/100"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE AUTHOR BY ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE AUTHOR BY ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/authors/2?name=Rodrigo Memendoza&birthdate=2024-01-01&nationality=USA",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"authors",
+						"2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Rodrigo Memendoza"
+						},
+						{
+							"key": "birthdate",
+							"value": "2024-01-01"
+						},
+						{
+							"key": "nationality",
+							"value": "USA"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

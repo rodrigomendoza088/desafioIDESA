@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "f8979227-5367-42a0-b7ed-2f75566fdce1",
+		"name": "Books",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40935142"
+	},
+	"item": [
+		{
+			"name": "GET BOOKS LIST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/books"
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE BOOKS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/books?title=Book002&published_date=1990-01-18&isbn=bbk001789-100&author_id=100",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"books"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Book002"
+						},
+						{
+							"key": "published_date",
+							"value": "1990-01-18"
+						},
+						{
+							"key": "isbn",
+							"value": "bbk001789-100"
+						},
+						{
+							"key": "author_id",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BOOK BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/books/2"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE BOOK BY ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE BOOK BY ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/books/3?title=Libro 2&isbn=200&published_date=2025-01-15&author_id=200",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"books",
+						"3"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Libro 2"
+						},
+						{
+							"key": "isbn",
+							"value": "200"
+						},
+						{
+							"key": "published_date",
+							"value": "2025-01-15"
+						},
+						{
+							"key": "author_id",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
