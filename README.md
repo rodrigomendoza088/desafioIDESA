@@ -15,7 +15,7 @@ Laravel 11.
 Clonar el proyecto
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/rodrigomendoza088/desafioIDESA.git
 ```
 
 Ir a la carpeta del proyecto
@@ -56,5 +56,7 @@ Inicializar
   php artisan serve
 ```
 
-## Configuracion archivo .env
+## Base de Datos : idesatest
+
+Para el proyecto se proporciona un dump.SQL para crear la base de datos inicial con el nombre "idesatest.sql"
 
