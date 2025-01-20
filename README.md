@@ -62,5 +62,5 @@ Para el proyecto se proporciona un dump.SQL para crear la base de datos inicial 
 
 ## Coleccion POSTMAN
 
-Se proporciona coleccion postman con ejemplos de las peticiones a la PAI dentro de la carpeta Recursos
+Se proporciona coleccion postman con ejemplos de las peticiones a la API dentro de la carpeta Recursos
 
